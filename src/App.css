@@ -1,0 +1,39 @@
+.custom-select {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='rgb(255,69,0)' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") !important;
+}
+
+.nav-link,
+.nav-link.active {
+  border: none;
+  transition: 0s !important;
+}
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-link:hover {
+  border: none;
+  transition: 0s;
+}
+
+.active {
+  border: none;
+}
+
+.active:enabled {
+  background-color: #212529 !important;
+  border-bottom: 2px #ff4500 solid !important;
+}
+
+textarea {
+  background-color: #212529;
+  color: #f8f9fa;
+  border: none;
+}
+
+textarea:active,
+textarea:focus,
+textarea:focus-visible {
+  border: none;
+  outline: none;
+}
